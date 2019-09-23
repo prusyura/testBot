@@ -6,19 +6,11 @@
   "scripts": {
     "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/prusyura/testBot.git"
-  },
   "keywords": [
     "messenger"
   ],
   "author": "Yura Prus",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/prusyura/testBot/issues"
-  },
-  "homepage": "https://github.com/prusyura/testBot#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
