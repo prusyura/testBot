@@ -23,5 +23,6 @@ app.get('/webhook', function(req, res) {
       res.sendStatus(403);          
     }
   });
-  server.listen(process.env.PORT || 5000);
-  console.log('Server run!');
+  var server = app.listen(process.env.PORT || 5000, function () {
+    console.log("Listening on port %s", server.address().port);
+  });
